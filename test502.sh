@@ -35,6 +35,6 @@ sudo dos2unix 65.sh
 sudo dos2unix 90.sh
 sudo dos2unix 40.sh
 
-sudo ./time1.sh & ./checker.sh
+sudo ./time1.sh
 
 
