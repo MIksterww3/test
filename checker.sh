@@ -1,4 +1,4 @@
-sudo -s
+#!/bin/sh
 cd /tmp/kopit/
 while (true)
 do
@@ -9,7 +9,9 @@ if [ $result -ge 1 ]
 	echo "script is running"
 else
 	echo "script is not running"
-	sudo ./time1.sh & ./checker.sh
+	sudo ./time1.sh
 fi
 sleep 10
 done;
+
+
